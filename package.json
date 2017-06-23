@@ -1,0 +1,35 @@
+{
+  "name": "jungle-local-test-container",
+  "version": "0.0.0",
+  "description": "## Installation",
+  "author": "monounity",
+  "contributors": [
+    "erikbarke"
+  ],
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "karma start"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "@types/jasmine": "^2.5.35",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.5.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-typescript": "latest",
+    "phantomjs-prebuilt": "^2.1.14",
+    "typescript": "latest"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Space-Ed/jungle-remote-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Space-Ed/jungle-remote-test/issues"
+  },
+  "homepage": "https://github.com/Space-Ed/jungle-remote-test#readme"
+}
